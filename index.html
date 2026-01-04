@@ -23,189 +23,224 @@
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <header class="hero">
       <div class="hero-text">
-        <h1>Hola, soy Jose,<br />Desarrollador Full Stack</h1>
+        <h1>
+          Desarrollador Full Stack en formación
+        </h1>
+    
+        <h2>José Yepez</h2>
+    
         <p>
-          Apasionado por crear aplicaciones web modernas, rápidas y escalables,
-          enfocadas en la experiencia del usuario y en el aprendizaje continuo.
+          Actualmente me encuentro enfocado en Frontend con Angular y en proceso
+          de formación Backend con Java. Desarrollo proyectos personales y académicos
+          para aplicar buenas prácticas, diseño responsive y fundamentos de UX/UI.
         </p>
-        <button class="btn">Download Resume</button>
+    
+        <p class="hero-goal">
+          🎯 Busco mi primera oportunidad como desarrollador
+          <strong>trainee o junior</strong>.
+        </p>
+    
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary">Ver proyectos</a>
+          <a href="#contact" class="btn secondary">Contactar</a>
+          <a href="cv-jose-yepez.pdf" class="btn outline" download>Descargar CV</a>
+        </div>
       </div>
-
+    
       <div class="hero-image">
-        <img src="img/perfil.png" alt="Jose yepez" />
+        <img
+          src="img/perfil.png"
+          alt="José Yepez, desarrollador full stack en formación"
+          loading="lazy"
+        />
       </div>
-    </section>
-
+    </header>
+    
     <!-- RECENT POSTS -->
-    <section class="posts">
-      <div class="section-header">
-        <h2>¿Cómo puedo ayudarte?</h2>
-      </div>
-
-      <div class="post-cards">
+    <section class="skills">
+      <header class="section-header">
+        <h2>Áreas en las que me estoy formando</h2>
+        <p class="section-subtitle">
+          Tecnologías y conocimientos que practico a través de proyectos personales y académicos.
+        </p>
+      </header>
+    
+      <div class="skill-cards">
         <article class="card">
-          <img src="img/diseno.png" alt="" />
-          <h3>Diseño UI</h3>
+          <img
+            src="img/diseno.png"
+            alt="Diseño de interfaces de usuario"
+            loading="lazy"
+          />
+          <h3>Fundamentos de UI / UX</h3>
           <p>
-            Diseño interfaces atractivas, funcionales y centradas en el usuario
-            web UX!
+            Aplico principios básicos de diseño de interfaces y experiencia de usuario
+            para crear layouts claros, accesibles y fáciles de usar.
           </p>
-          <div class="habilidades">
-            <span class="tag">Figma</span> <span class="tag">Diseño UI</span>
+          <div class="tags">
+            <span class="tag">Figma</span>
+            <span class="tag">UI</span>
             <span class="tag">Prototipado</span>
           </div>
         </article>
+    
         <article class="card">
-          <img src="img/sitio-web.png" alt="" />
-          <h3>Desarrollo Frontend</h3>
+          <img
+            src="img/sitio-web.png"
+            alt="Desarrollo frontend web"
+            loading="lazy"
+          />
+          <h3>Frontend</h3>
           <p>
-            Construyo sitios web modernos, rápidos y adaptables a cualquier
-            dispositivo
+            Desarrollo interfaces web responsive aplicando buenas prácticas de maquetación
+            y lógica frontend, con enfoque principal en Angular.
           </p>
-          <div class="habilidades">
-            <span class="tag">HTML</span> <span class="tag">CSS</span>
-            <span class="tag">JS</span> <span class="tag">ANGULAR</span>
+          <div class="tags">
+            <span class="tag">HTML</span>
+            <span class="tag">CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Angular</span>
           </div>
         </article>
-
+    
         <article class="card">
-          <img src="img/codificacion.png" alt="" />
-          <h3>Desarrollo Backend</h3>
+          <img
+            src="img/codificacion.png"
+            alt="Desarrollo backend con Java"
+            loading="lazy"
+          />
+          <h3>Backend (en formación)</h3>
           <p>
-            Desarrollo la lógica y estructura de servidores para que todo
-            funcione de forma estable
+            Aprendo a desarrollar lógica backend y APIs REST utilizando Java,
+            enfocándome en estructuras claras y buenas prácticas.
           </p>
-          <div class="habilidades">
-            <span class="tag">Java</span> <span class="tag">Spring Boot</span>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Spring Boot</span>
             <span class="tag">Bases de Datos</span>
           </div>
         </article>
       </div>
     </section>
+    
 
-    <!-- FEATURED WORKS -->
-    <section class="works">
-      <h2>Mis trabajos</h2>
-      <h3>Estos Son Mis Trabajos Como Desarrollador Web.</h3>
+  <!-- PROJECTS -->
+<section class="projects">
+  <header class="section-header">
+    <h2>Proyectos</h2>
+    <p class="section-subtitle">
+      Proyectos personales desarrollados como parte de mi formación en desarrollo web,
+      enfocados en Angular y buenas prácticas frontend.
+    </p>
+  </header>
 
-      <div class="work">
-        <img src="img/1.png" alt="Dashboard de Noticias en Angular" />
+  <article class="project">
+    <img
+      src="img/1.png"
+      alt="Dashboard de noticias desarrollado con Angular"
+      loading="lazy"
+    />
 
-        <div class="descripcion">
-          <h3>Dashboard de Noticias</h3>
+    <div class="project-info">
+      <h3>Dashboard de Noticias</h3>
 
-          <div class="meta">
-            <span class="tag">Angular</span>
-            <span class="category">Frontend App</span>
-          </div>
-
-          <p class="resumen">
-            Aplicación web desarrollada en Angular para la visualización de
-            noticias en tiempo real, consumiendo APIs REST y aplicando buenas
-            prácticas de arquitectura frontend.
-          </p>
-
-          <ul class="features">
-            <li>Consumo de APIs REST con HttpClient</li>
-            <li>Arquitectura basada en componentes y servicios</li>
-            <li>Comunicación entre componentes (@Input / @Output)</li>
-            <li>Manejo de estados de carga y errores</li>
-            <li>Diseño responsive</li>
-          </ul>
-
-          <div class="actions">
-            <a href="https://demo-url.com" target="_blank" class="btn demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/usuario/repositorio"
-              target="_blank"
-              class="btn code"
-              >Código</a
-            >
-          </div>
-        </div>
+      <div class="meta">
+        <span class="tag">Angular</span>
+        <span class="category">Frontend App</span>
       </div>
 
-      <div class="work">
-        <img src="img/1.png" alt="Gestor de Tareas en Angular" />
+      <p class="description">
+        Aplicación web desarrollada con Angular para consumir y visualizar noticias
+        desde APIs REST, enfocada en la práctica de arquitectura basada en componentes.
+      </p>
 
-        <div class="descripcion">
-          <h3>Gestor de Tareas</h3>
+      <ul class="features">
+        <li>Consumo de APIs REST con HttpClient</li>
+        <li>Arquitectura por componentes y servicios</li>
+        <li>Comunicación entre componentes (@Input / @Output)</li>
+        <li>Manejo de estados de carga y errores</li>
+        <li>Diseño responsive</li>
+      </ul>
 
-          <div class="meta">
-            <span class="tag">Angular</span>
-            <span class="category">CRUD Application</span>
-          </div>
-
-          <p class="resumen">
-            Aplicación web para la gestión de tareas personales, enfocada en
-            productividad y en la implementación de un CRUD completo con
-            Angular.
-          </p>
-
-          <ul class="features">
-            <li>Crear, editar, eliminar y completar tareas</li>
-            <li>Formularios reactivos con validaciones</li>
-            <li>Manejo de estado de la aplicación</li>
-            <li>Persistencia de datos (localStorage o servicio simulado)</li>
-            <li>Componentes reutilizables</li>
-          </ul>
-
-          <div class="actions">
-            <a href="https://demo-tareas.com" target="_blank" class="btn demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/usuario/gestor-tareas"
-              target="_blank"
-              class="btn code"
-              >Código</a
-            >
-          </div>
-        </div>
+      <div class="actions">
+        <a href="#" target="_blank" class="btn demo">Demo</a>
+        <a href="#" target="_blank" class="btn code">Código</a>
       </div>
-      <div class="work">
-        <img src="img/1.png" alt="Portal de Autenticación en Angular" />
+    </div>
+  </article>
 
-        <div class="descripcion">
-          <h3>Portal de Autenticación</h3>
+  <article class="project">
+    <img
+      src="img/1.png"
+      alt="Gestor de tareas desarrollado con Angular"
+      loading="lazy"
+    />
 
-          <div class="meta">
-            <span class="tag">Angular</span>
-            <span class="category">Authentication System</span>
-          </div>
+    <div class="project-info">
+      <h3>Gestor de Tareas</h3>
 
-          <p class="resumen">
-            Sistema de autenticación desarrollado en Angular que simula un
-            entorno real de acceso seguro con control de rutas y sesiones de
-            usuario.
-          </p>
-
-          <ul class="features">
-            <li>Registro e inicio de sesión de usuarios</li>
-            <li>Protección de rutas con Guards</li>
-            <li>Manejo de tokens JWT</li>
-            <li>Interceptores HTTP</li>
-            <li>Formularios reactivos con validaciones</li>
-          </ul>
-
-          <div class="actions">
-            <a href="https://demo-auth.com" target="_blank" class="btn demo"
-              >Demo</a
-            >
-            <a
-              href="https://github.com/usuario/portal-auth"
-              target="_blank"
-              class="btn code"
-              >Código</a
-            >
-          </div>
-        </div>
+      <div class="meta">
+        <span class="tag">Angular</span>
+        <span class="category">CRUD Application</span>
       </div>
-    </section>
+
+      <p class="description">
+        Aplicación web para la gestión de tareas personales, desarrollada para practicar
+        operaciones CRUD, formularios reactivos y manejo de estado.
+      </p>
+
+      <ul class="features">
+        <li>Crear, editar y eliminar tareas</li>
+        <li>Formularios reactivos con validaciones</li>
+        <li>Manejo de estado de la aplicación</li>
+        <li>Persistencia local de datos</li>
+        <li>Componentes reutilizables</li>
+      </ul>
+
+      <div class="actions">
+        <a href="#" target="_blank" class="btn demo">Demo</a>
+        <a href="#" target="_blank" class="btn code">Código</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="project">
+    <img
+      src="img/1.png"
+      alt="Sistema de autenticación desarrollado con Angular"
+      loading="lazy"
+    />
+
+    <div class="project-info">
+      <h3>Portal de Autenticación</h3>
+
+      <div class="meta">
+        <span class="tag">Angular</span>
+        <span class="category">Authentication</span>
+      </div>
+
+      <p class="description">
+        Proyecto enfocado en la implementación de autenticación y autorización,
+        simulando un flujo real de acceso seguro en aplicaciones web.
+      </p>
+
+      <ul class="features">
+        <li>Registro e inicio de sesión</li>
+        <li>Protección de rutas con Guards</li>
+        <li>Manejo de tokens JWT</li>
+        <li>Interceptores HTTP</li>
+        <li>Validaciones en formularios</li>
+      </ul>
+
+      <div class="actions">
+        <a href="#" target="_blank" class="btn demo">Demo</a>
+        <a href="#" target="_blank" class="btn code">Código</a>
+      </div>
+    </div>
+  </article>
+</section>
 
     <!-- FOOTER -->
     <footer>
